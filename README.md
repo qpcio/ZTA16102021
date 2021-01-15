@@ -1,3 +1,3 @@
-#ZTA Day1
-##Initial commit
+# ZTA Day1
+## Initial commit
 Hello World! 
