@@ -7,18 +7,19 @@ public class Tablice {
      */
 
     public static void main(String[] args) {
-        String imiona[] = new String[5];
+        int numberOfParticipants = 5;
+        String imiona[] = new String[numberOfParticipants];
         Scanner scanner = new Scanner(System.in);
 
         //jak poprawic te petle nizej, zeby nie trzeba bylo
         // jej juz pozniej zmieniac, jak bedzie sie zmienial rozmiar tablicy?
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < imiona.length; i++) {
             System.out.println("Podaj imie");
             imiona[i] = scanner.nextLine();
         }
+        // o tak =>
         for (int i = 0; i < imiona.length; i++) {
-            System.out.println("witaj "+imiona[i]);
+            System.out.println("witaj " + imiona[i]);
         }
     }
-
 }
