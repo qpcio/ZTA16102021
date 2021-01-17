@@ -20,5 +20,6 @@ public class Zad1 {
         } else {
             System.out.println("Liczby sa sobie rowne");
         }
+
     }
 }
